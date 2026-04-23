@@ -1,0 +1,77 @@
+{
+  "data_sharing": {
+    "keywords": [
+      "share your data",
+      "third parties",
+      "external partners",
+      "provide your information",
+      "disclose information",
+      "transfer your data",
+      "data may be shared"
+    ],
+    "explanation": "Your personal or business data may be shared with other companies or organizations.",
+    "severity": "Medium"
+  },
+
+  "auto_renewal": {
+    "keywords": [
+      "automatically renew",
+      "subscription renews",
+      "auto-renew",
+      "renewal",
+      "renew without notice",
+      "automatic renewal"
+    ],
+    "explanation": "The service may renew automatically, potentially charging you without explicit consent each time.",
+    "severity": "Medium"
+  },
+
+  "payment": {
+    "keywords": [
+      "non-refundable",
+      "no refund",
+      "not returnable",
+      "fees payable",
+      "charges apply",
+      "interest",
+      "late payment",
+      "penalty",
+      "outstanding amounts",
+      "payment due",
+      "additional charges"
+    ],
+    "explanation": "You may be subject to strict payment terms, penalties, or may not receive refunds.",
+    "severity": "Medium"
+  },
+
+  "liability": {
+    "keywords": [
+      "not responsible",
+      "no liability",
+      "shall not be liable",
+      "not liable",
+      "limitation of liability",
+      "indirect loss",
+      "consequential loss",
+      "damages",
+      "howsoever caused",
+      "liability limited"
+    ],
+    "explanation": "The company limits or removes its responsibility for damages, losses, or issues caused by its services.",
+    "severity": "High"
+  },
+
+  "termination": {
+    "keywords": [
+      "terminate without notice",
+      "suspend service",
+      "terminate services",
+      "cancel without refund",
+      "right to terminate",
+      "service may be suspended",
+      "termination without notice"
+    ],
+    "explanation": "The service provider can suspend or terminate your access, sometimes without warning or refund.",
+    "severity": "High"
+  }
+}

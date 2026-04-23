@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Risk Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Terms & Conditions Risk Analyzer</h1>
+
+    <div class="grid">
+
+        <!-- LEFT PANEL -->
+        <div class="card input-card">
+            <h2>Input</h2>
+
+            <textarea id="textInput" placeholder="Paste terms here..."></textarea>
+
+            <input type="file" id="fileInput">
+
+            <div class="buttons">
+                <button id="textBtn">Analyze Text</button>
+                <button id="fileBtn">Upload & Analyze</button>
+            </div>
+        </div>
+
+        <!-- RIGHT PANEL -->
+        <div class="card output-card">
+            <h2>Results</h2>
+            <button onclick="downloadReport()">Download Report</button>
+            <div id="output"></div>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
