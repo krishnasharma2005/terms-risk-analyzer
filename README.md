@@ -31,4 +31,4 @@ Open frontend/index.html in browser.
 
 - Semantic similarity detection
 - PDF report export
-- Dashboard UI
+- Dashboard UI         
